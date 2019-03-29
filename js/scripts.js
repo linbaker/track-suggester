@@ -1,6 +1,10 @@
 $(document).ready(function(){
   $("#first").submit(function(event){
     var questionOne = $("input:radio[name=whichEnd]:checked").val();
+    var questionTwo = $("input:radio[name=size]:checked").val();
+    var questionThree = $("input:radio[name=work]:checked").val();
+    var questionFour = $("input:radio[name=pace]:checked").val();
+    var questionFive = $("input:radio[name=important]:checked").val();
 
     // var iceCream = parseInt($("input:radio[name=iceCream]:checked").val());
     // var vacation = parseInt($("input:radio[name=vacation]:checked").val());
