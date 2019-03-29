@@ -1,6 +1,16 @@
+body {
+  background-color: #CDE3CA;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 #questionReveal {
   display: none;
 }
 .type {
   display: none;
+  border: 2px solid black;
+  float: right;
 }
