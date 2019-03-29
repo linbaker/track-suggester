@@ -26,15 +26,27 @@ $(document).ready(function(){
       $("#questionReveal").hide();
     };
 
-    if ((result === "prr") || (result === "prr") || (result === "rpr") || (result === "rpr") || (result === "rrp") || (result === "rrp") || (result === "crr") || (result === "crr") || (result === "rcr") || (result === "rcr") || (result === "rrc") || (result === "rrc") || (result === "jrr") || (result === "jrr") || (result === "rjr") || (result === "rjr") || (result === "rrj") || (result === "rrj") || r(esult === "rrr")) {
+    if ((result === "prr") || (result === "rpr") || (result === "rrp") || (result === "crr") || (result === "rcr") || (result === "rrc") || (result === "rjr") || (result === "rrr")) {
+      $(".type").hide();
       $(".ruby").show();
-    } else if (questionTwo === "r" && questionThree === "r") {
-      $(".ruby").show();
-    } else if (questionTwo === "p" && questionFour === "p") {
-      $(".ruby").show();
-    } else if (questionTwo === "j" && questionFive === "j") {
-      $(".ruby").show();
-
+    } else if ((result === "cjp") || (result === "cjr") || (result === "cjc")) {
+      $(".type").hide();
+      $(".java").show();
+    } else if ((result === "ccp") || (result === "cpc") || (result === "pcc") || (result === "ccr") || (result === "rcc") || (result === "crc") || (result === "cjc") || (result === "ccc")) {
+      $(".type").hide();
+      $(".c").show();
+    } else if ((result === "jpp") || (result === "pjp") || (result === "ppc") || (result === "cpp") || (result === "pcp") || (result === "ppr") || (result === "rpp") || (result === "prp") || (result === "rpp") || (result === "ppp") ) {
+      $(".type").hide();
+      $(".php").show();
+    // } else (questionFive === p) {
+    //   $(".type").hide();
+    //   $(".php").show();
+    // } else (questionFive === j) {
+    //   $(".type").hide();
+    //   $(".java").show();
+    // } else (questionFive === r) {
+    //   $(".type").hide();
+    //   $(".ruby").show();
     }
 });
 
