@@ -7,8 +7,6 @@ $(document).ready(function(){
     var questionFive = $("input:radio[name=important]:checked").val();
 
 
-alert(questionFive)
-
     event.preventDefault();
 
 
@@ -26,10 +24,10 @@ alert(questionFive)
       $("#questionReveal").hide();
     };
 
+    if (questionTwo === "r" && questionThree === "r" && questionFour === "r" && questionFive === "r") {
+      $(".ruby").show();
+    }
 });
 
-if (questionTwo === r && questionThree === r && questionFour === r && questionFive === r) {
-  $(".ruby").show();
-}
 
 });
