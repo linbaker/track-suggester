@@ -10,6 +10,7 @@ button:hover {
   display: none;
 }
 .type {
+  font-size: 20px;
   display: none;
   border: 2px solid black;
   float: right;
