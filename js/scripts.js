@@ -18,8 +18,8 @@ $(document).ready(function(){
       $(".idk").hide();
       $("#questionReveal").hide();
     } else if (questionOne === "backEnd"){
-      $("#questionReveal").show();
       $(".type").hide();
+      $("#questionReveal").show();
     } else if (questionOne === "idk"){
       $(".idk").show();
       $(".design").hide();
