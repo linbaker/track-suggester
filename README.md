@@ -17,7 +17,6 @@ _This web app will ask users to select radio check boxes in the style of a quiz 
 
 ## Known Bugs
 
-_Previous results not clearing when radio selection is changed by user_
 
 ## Support and contact details
 
